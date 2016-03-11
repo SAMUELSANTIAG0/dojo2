@@ -34,7 +34,6 @@ class TableViewController: UITableViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    // MARK: - Table view data source
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
@@ -65,7 +64,7 @@ class TableViewController: UITableViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "detalhe" {
             if let index = self.tableView.indexPathForSelectedRow {
-                var musica = musicas[index.row]
+                let musica = musicas[index.row]
                 
                                 if let controller = segue.destinationViewController as? DEtlheViewControler {
                                     controller.musica = musica
