@@ -27,7 +27,7 @@
 		3FB3F91C1C8F42CA0070F42F /* DEtlheViewControler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DEtlheViewControler.swift; sourceTree = "<group>"; };
 		3FB3F91E1C8F443D0070F42F /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		3FB3F9201C8F45D20070F42F /* Musica.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Musica.swift; sourceTree = "<group>"; };
-		3FB3F9241C8F46D90070F42F /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		3FB3F9241C8F46D90070F42F /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = ../TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +44,6 @@
 		3F672F451C8F419D00CEE2E9 = {
 			isa = PBXGroup;
 			children = (
-				3FB3F9241C8F46D90070F42F /* TableViewController.swift */,
 				3F672F501C8F419D00CEE2E9 /* dojo2 */,
 				3F672F4F1C8F419D00CEE2E9 /* Products */,
 			);
@@ -61,6 +60,7 @@
 		3F672F501C8F419D00CEE2E9 /* dojo2 */ = {
 			isa = PBXGroup;
 			children = (
+				3FB3F9241C8F46D90070F42F /* TableViewController.swift */,
 				3F672F511C8F419D00CEE2E9 /* AppDelegate.swift */,
 				3F672F551C8F419D00CEE2E9 /* Main.storyboard */,
 				3F672F581C8F419D00CEE2E9 /* Assets.xcassets */,

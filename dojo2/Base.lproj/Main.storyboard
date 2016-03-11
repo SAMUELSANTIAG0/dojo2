@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
@@ -17,10 +18,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="idCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="57" id="9Fp-gC-ThM" customClass="TableViewCell" customModule="dojo2" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="600" height="57"/>
+                                <rect key="frame" x="0.0" y="92" width="600" height="57"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9Fp-gC-ThM" id="Ch0-V4-8Az">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="56"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="56.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Numero" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hbG-gV-xds">
@@ -87,6 +88,7 @@
                         <viewControllerLayoutGuide type="bottom" id="RL8-JQ-Xz5"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="uMa-I4-icT">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vxP-JP-6Ks">
