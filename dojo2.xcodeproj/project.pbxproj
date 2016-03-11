@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		3F672F521C8F419D00CEE2E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F672F511C8F419D00CEE2E9 /* AppDelegate.swift */; };
-		3F672F541C8F419D00CEE2E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F672F531C8F419D00CEE2E9 /* ViewController.swift */; };
 		3F672F571C8F419D00CEE2E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F672F551C8F419D00CEE2E9 /* Main.storyboard */; };
 		3F672F591C8F419D00CEE2E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F672F581C8F419D00CEE2E9 /* Assets.xcassets */; };
 		3F672F5C1C8F419D00CEE2E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F672F5A1C8F419D00CEE2E9 /* LaunchScreen.storyboard */; };
+		3FB3F91D1C8F42CA0070F42F /* DEtlheViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB3F91C1C8F42CA0070F42F /* DEtlheViewControler.swift */; };
+		3FB3F91F1C8F443D0070F42F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB3F91E1C8F443D0070F42F /* TableViewCell.swift */; };
+		3FB3F9211C8F45D20070F42F /* Musica.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB3F9201C8F45D20070F42F /* Musica.swift */; };
+		3FB3F9251C8F46D90070F42F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB3F9241C8F46D90070F42F /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3F672F4E1C8F419D00CEE2E9 /* dojo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dojo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F672F511C8F419D00CEE2E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F672F531C8F419D00CEE2E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3F672F561C8F419D00CEE2E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F672F581C8F419D00CEE2E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F672F5B1C8F419D00CEE2E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F672F5D1C8F419D00CEE2E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB3F91C1C8F42CA0070F42F /* DEtlheViewControler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DEtlheViewControler.swift; sourceTree = "<group>"; };
+		3FB3F91E1C8F443D0070F42F /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		3FB3F9201C8F45D20070F42F /* Musica.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Musica.swift; sourceTree = "<group>"; };
+		3FB3F9241C8F46D90070F42F /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +44,7 @@
 		3F672F451C8F419D00CEE2E9 = {
 			isa = PBXGroup;
 			children = (
+				3FB3F9241C8F46D90070F42F /* TableViewController.swift */,
 				3F672F501C8F419D00CEE2E9 /* dojo2 */,
 				3F672F4F1C8F419D00CEE2E9 /* Products */,
 			);
@@ -55,11 +62,13 @@
 			isa = PBXGroup;
 			children = (
 				3F672F511C8F419D00CEE2E9 /* AppDelegate.swift */,
-				3F672F531C8F419D00CEE2E9 /* ViewController.swift */,
 				3F672F551C8F419D00CEE2E9 /* Main.storyboard */,
 				3F672F581C8F419D00CEE2E9 /* Assets.xcassets */,
 				3F672F5A1C8F419D00CEE2E9 /* LaunchScreen.storyboard */,
 				3F672F5D1C8F419D00CEE2E9 /* Info.plist */,
+				3FB3F91C1C8F42CA0070F42F /* DEtlheViewControler.swift */,
+				3FB3F91E1C8F443D0070F42F /* TableViewCell.swift */,
+				3FB3F9201C8F45D20070F42F /* Musica.swift */,
 			);
 			path = dojo2;
 			sourceTree = "<group>";
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F672F541C8F419D00CEE2E9 /* ViewController.swift in Sources */,
+				3FB3F91F1C8F443D0070F42F /* TableViewCell.swift in Sources */,
+				3FB3F91D1C8F42CA0070F42F /* DEtlheViewControler.swift in Sources */,
 				3F672F521C8F419D00CEE2E9 /* AppDelegate.swift in Sources */,
+				3FB3F9251C8F46D90070F42F /* TableViewController.swift in Sources */,
+				3FB3F9211C8F45D20070F42F /* Musica.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +296,7 @@
 				3F672F621C8F419D00CEE2E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
